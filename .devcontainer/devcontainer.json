@@ -1,0 +1,16 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+}
+# 1. Install Cloudflare Wrangler
+npm install -g wrangler
+
+# 2. Login to Cloudflare
+wrangler login
+# (It will open a new tab; log in and authorize)
+
+# 3. Create the project
+wrangler init blackrose-tg1 --type javascript
+
+# 4. Enter the folder
+cd blackrose-tg1
